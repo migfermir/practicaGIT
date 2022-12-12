@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Githubentornos.Properties
+namespace ejercicio2._3.Properties
 {
 
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Githubentornos
+namespace ejercicio2._3
 {
     internal static class Program
     {

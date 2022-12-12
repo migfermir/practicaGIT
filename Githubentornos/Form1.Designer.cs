@@ -1,4 +1,4 @@
-﻿namespace Githubentornos
+﻿namespace ejercicio2._3
 {
     partial class Form1
     {
@@ -29,38 +29,79 @@
         private void InitializeComponent()
         {
             this.btn1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.txtTelegrama = new System.Windows.Forms.RichTextBox();
+            this.cbUrgente = new System.Windows.Forms.CheckBox();
+            this.txtPrecio = new System.Windows.Forms.TextBox();
+            this.lbl2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(353, 136);
+            this.btn1.Location = new System.Drawing.Point(395, 296);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(155, 84);
+            this.btn1.Size = new System.Drawing.Size(150, 45);
             this.btn1.TabIndex = 0;
-            this.btn1.Text = "BOTON";
+            this.btn1.Text = "Depurar";
             this.btn1.UseVisualStyleBackColor = true;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
-            // label1
+            // lbl1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(160, 185);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.lbl1.AutoSize = true;
+            this.lbl1.Location = new System.Drawing.Point(42, 23);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(34, 13);
+            this.lbl1.TabIndex = 1;
+            this.lbl1.Text = "Texto";
+            // 
+            // txtTelegrama
+            // 
+            this.txtTelegrama.Location = new System.Drawing.Point(45, 59);
+            this.txtTelegrama.Name = "txtTelegrama";
+            this.txtTelegrama.Size = new System.Drawing.Size(500, 144);
+            this.txtTelegrama.TabIndex = 3;
+            this.txtTelegrama.Text = "";
+            // 
+            // cbUrgente
+            // 
+            this.cbUrgente.AutoSize = true;
+            this.cbUrgente.Location = new System.Drawing.Point(45, 241);
+            this.cbUrgente.Name = "cbUrgente";
+            this.cbUrgente.Size = new System.Drawing.Size(70, 17);
+            this.cbUrgente.TabIndex = 4;
+            this.cbUrgente.Text = "Urgente?";
+            this.cbUrgente.UseVisualStyleBackColor = true;
+            // 
+            // txtPrecio
+            // 
+            this.txtPrecio.Location = new System.Drawing.Point(83, 317);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.Size = new System.Drawing.Size(124, 20);
+            this.txtPrecio.TabIndex = 5;
+            // 
+            // lbl2
+            // 
+            this.lbl2.AutoSize = true;
+            this.lbl2.Location = new System.Drawing.Point(42, 320);
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Size = new System.Drawing.Size(37, 13);
+            this.lbl2.TabIndex = 6;
+            this.lbl2.Text = "Coste:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl2);
+            this.Controls.Add(this.txtPrecio);
+            this.Controls.Add(this.cbUrgente);
+            this.Controls.Add(this.txtTelegrama);
+            this.Controls.Add(this.lbl1);
             this.Controls.Add(this.btn1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -69,7 +110,11 @@
         #endregion
 
         private System.Windows.Forms.Button btn1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.RichTextBox txtTelegrama;
+        private System.Windows.Forms.CheckBox cbUrgente;
+        private System.Windows.Forms.TextBox txtPrecio;
+        private System.Windows.Forms.Label lbl2;
     }
 }
 
